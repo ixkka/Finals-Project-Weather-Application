@@ -162,5 +162,14 @@
   <ItemGroup>
     <None Include="Resources\icons8-refresh-20.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scenes-sunset-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivid-woman-relaxing-on-the-beach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scenes-sunset-background1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Cheska\\source\\repos\\Finals Project - Weather Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|c:\\users\\cheska\\source\\repos\\finals project - weather application\\finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|solutionrelative:finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|c:\\users\\cheska\\source\\repos\\finals project - weather application\\finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|solutionrelative:finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|C:\\Users\\Cheska\\source\\repos\\Finals Project - Weather Application\\finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|solutionrelative:finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|C:\\Users\\Cheska\\source\\repos\\Finals Project - Weather Application\\finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8DE3EA9-91E9-4E8D-AB2E-72EED64F5358}|Finals Project - Weather Application\\Finals Project - Weather Application.csproj|solutionrelative:finals project - weather application\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,27 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Cheska\\source\\repos\\Finals Project - Weather Application\\Finals Project - Weather Application\\MainForm.cs",
               "RelativeDocumentMoniker": "Finals Project - Weather Application\\MainForm.cs",
               "ToolTip": "C:\\Users\\Cheska\\source\\repos\\Finals Project - Weather Application\\Finals Project - Weather Application\\MainForm.cs",
               "RelativeToolTip": "Finals Project - Weather Application\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAALgAAAAAAAAAAAAEwMwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T10:43:43.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Cheska\\source\\repos\\Finals Project - Weather Application\\Finals Project - Weather Application\\MainForm.cs",
               "RelativeDocumentMoniker": "Finals Project - Weather Application\\MainForm.cs",
               "ToolTip": "C:\\Users\\Cheska\\source\\repos\\Finals Project - Weather Application\\Finals Project - Weather Application\\MainForm.cs [Design]",
               "RelativeToolTip": "Finals Project - Weather Application\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:07:02.073Z"
+              "WhenOpened": "2024-07-08T15:07:02.073Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
