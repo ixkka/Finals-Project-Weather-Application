@@ -35,56 +35,56 @@ namespace Finals_Project___Weather_Application
         }
 
         public List<WeatherCondition> weatherConditions = new List<WeatherCondition>
-{
-    new WeatherCondition { Code = 1000, Condition = "Sunny", GifName = "sunny.gif", PngName = "sunny.png", BackgroundImg = "sunny-bg.png" },
-    new WeatherCondition { Code = 1003, Condition = "Partly cloudy", GifName = "partlycloudy.gif", PngName = "partlycloudy.png", BackgroundImg = "partlycloudy-bg.png" },
-    new WeatherCondition { Code = 1006, Condition = "Cloudy", GifName = "cloudy.gif", PngName = "cloudy.png", BackgroundImg = "cloudy-bg.png" },
-    new WeatherCondition { Code = 1009, Condition = "Overcast", GifName = "cloudy.gif", PngName = "cloudy.png", BackgroundImg = "cloudy-bg.png" },
-    new WeatherCondition { Code = 1030, Condition = "Mist", GifName = "fog.gif", PngName = "fog.png", BackgroundImg = "fog-bg.png" },
-    new WeatherCondition { Code = 1063, Condition = "Patchy rain possible", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
-    new WeatherCondition { Code = 1066, Condition = "Patchy snow possible", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1069, Condition = "Patchy sleet possible", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1072, Condition = "Patchy freezing drizzle possible", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1087, Condition = "Thundery outbreaks possible", GifName = "lightning.gif", PngName = "lightning.png", BackgroundImg = "lightning-bg.png" },
-    new WeatherCondition { Code = 1114, Condition = "Blowing snow", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1117, Condition = "Blizzard", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1135, Condition = "Fog", GifName = "fog.gif", PngName = "fog.png", BackgroundImg = "fog-bg.png" },
-    new WeatherCondition { Code = 1147, Condition = "Freezing fog", GifName = "fog.gif", PngName = "fog.png", BackgroundImg = "fog-bg.png" },
-    new WeatherCondition { Code = 1150, Condition = "Patchy light drizzle", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
-    new WeatherCondition { Code = 1153, Condition = "Light drizzle", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
-    new WeatherCondition { Code = 1168, Condition = "Freezing drizzle", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1171, Condition = "Heavy freezing drizzle", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1180, Condition = "Patchy light rain", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
-    new WeatherCondition { Code = 1183, Condition = "Light rain", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
-    new WeatherCondition { Code = 1186, Condition = "Moderate rain at times", GifName = "rain.gif", PngName = "rain.png", BackgroundImg = "rain-bg.png" },
-    new WeatherCondition { Code = 1189, Condition = "Moderate rain", GifName = "rain.gif", PngName = "rain.png", BackgroundImg = "rain-bg.png" },
-    new WeatherCondition { Code = 1192, Condition = "Heavy rain at times", GifName = "torrentialrain.gif", PngName = "torrentialrain.png", BackgroundImg = "torrentialrain-bg.png" },
-    new WeatherCondition { Code = 1195, Condition = "Heavy rain", GifName = "torrentialrain.gif", PngName = "torrentialrain.png", BackgroundImg = "torrentialrain-bg.png" },
-    new WeatherCondition { Code = 1198, Condition = "Light freezing rain", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1201, Condition = "Moderate or heavy freezing rain", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1204, Condition = "Light sleet", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1207, Condition = "Moderate or heavy sleet", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1210, Condition = "Patchy light snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1213, Condition = "Light snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1216, Condition = "Patchy moderate snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1219, Condition = "Moderate snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1222, Condition = "Patchy heavy snow", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1225, Condition = "Heavy snow", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1237, Condition = "Ice pellets", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1240, Condition = "Light rain shower", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
-    new WeatherCondition { Code = 1243, Condition = "Moderate or heavy rain shower", GifName = "rain.gif", PngName = "rain.png", BackgroundImg = "rain-bg.png" },
-    new WeatherCondition { Code = 1246, Condition = "Torrential rain shower", GifName = "torrentialrain.gif", PngName = "torrentialrain.png", BackgroundImg = "torrentialrain-bg.png" },
-    new WeatherCondition { Code = 1249, Condition = "Light sleet showers", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1252, Condition = "Moderate or heavy sleet showers", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1255, Condition = "Light snow showers", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1258, Condition = "Moderate or heavy snow showers", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1261, Condition = "Light showers of ice pellets", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1264, Condition = "Moderate or heavy showers of ice pellets", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
-    new WeatherCondition { Code = 1273, Condition = "Patchy light rain with thunder", GifName = "storm.gif", PngName = "storm.png", BackgroundImg = "storm-bg.png" },
-    new WeatherCondition { Code = 1276, Condition = "Moderate or heavy rain with thunder", GifName = "storm.gif", PngName = "storm.png", BackgroundImg = "storm-bg.png" },
-    new WeatherCondition { Code = 1279, Condition = "Patchy light snow with thunder", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
-    new WeatherCondition { Code = 1282, Condition = "Moderate or heavy snow with thunder", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" }
-};
+        {
+            new WeatherCondition { Code = 1000, Condition = "Sunny", GifName = "sunny.gif", PngName = "sunny.png", BackgroundImg = "sunny-bg.png" },
+            new WeatherCondition { Code = 1003, Condition = "Partly cloudy", GifName = "partlycloudy.gif", PngName = "partlycloudy.png", BackgroundImg = "partlycloudy-bg.png" },
+            new WeatherCondition { Code = 1006, Condition = "Cloudy", GifName = "cloudy.gif", PngName = "cloudy.png", BackgroundImg = "cloudy-bg.png" },
+            new WeatherCondition { Code = 1009, Condition = "Overcast", GifName = "cloudy.gif", PngName = "cloudy.png", BackgroundImg = "cloudy-bg.png" },
+            new WeatherCondition { Code = 1030, Condition = "Mist", GifName = "fog.gif", PngName = "fog.png", BackgroundImg = "fog-bg.png" },
+            new WeatherCondition { Code = 1063, Condition = "Patchy rain possible", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
+            new WeatherCondition { Code = 1066, Condition = "Patchy snow possible", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1069, Condition = "Patchy sleet possible", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1072, Condition = "Patchy freezing drizzle possible", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1087, Condition = "Thundery outbreaks possible", GifName = "lightning.gif", PngName = "lightning.png", BackgroundImg = "lightning-bg.png" },
+            new WeatherCondition { Code = 1114, Condition = "Blowing snow", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1117, Condition = "Blizzard", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1135, Condition = "Fog", GifName = "fog.gif", PngName = "fog.png", BackgroundImg = "fog-bg.png" },
+            new WeatherCondition { Code = 1147, Condition = "Freezing fog", GifName = "fog.gif", PngName = "fog.png", BackgroundImg = "fog-bg.png" },
+            new WeatherCondition { Code = 1150, Condition = "Patchy light drizzle", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
+            new WeatherCondition { Code = 1153, Condition = "Light drizzle", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
+            new WeatherCondition { Code = 1168, Condition = "Freezing drizzle", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1171, Condition = "Heavy freezing drizzle", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1180, Condition = "Patchy light rain", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
+            new WeatherCondition { Code = 1183, Condition = "Light rain", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
+            new WeatherCondition { Code = 1186, Condition = "Moderate rain at times", GifName = "rain.gif", PngName = "rain.png", BackgroundImg = "rain-bg.png" },
+            new WeatherCondition { Code = 1189, Condition = "Moderate rain", GifName = "rain.gif", PngName = "rain.png", BackgroundImg = "rain-bg.png" },
+            new WeatherCondition { Code = 1192, Condition = "Heavy rain at times", GifName = "torrentialrain.gif", PngName = "torrentialrain.png", BackgroundImg = "torrentialrain-bg.png" },
+            new WeatherCondition { Code = 1195, Condition = "Heavy rain", GifName = "torrentialrain.gif", PngName = "torrentialrain.png", BackgroundImg = "torrentialrain-bg.png" },
+            new WeatherCondition { Code = 1198, Condition = "Light freezing rain", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1201, Condition = "Moderate or heavy freezing rain", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1204, Condition = "Light sleet", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1207, Condition = "Moderate or heavy sleet", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1210, Condition = "Patchy light snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1213, Condition = "Light snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1216, Condition = "Patchy moderate snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1219, Condition = "Moderate snow", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1222, Condition = "Patchy heavy snow", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1225, Condition = "Heavy snow", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1237, Condition = "Ice pellets", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1240, Condition = "Light rain shower", GifName = "lightrain.gif", PngName = "lightrain.png", BackgroundImg = "lightrain-bg.png" },
+            new WeatherCondition { Code = 1243, Condition = "Moderate or heavy rain shower", GifName = "rain.gif", PngName = "rain.png", BackgroundImg = "rain-bg.png" },
+            new WeatherCondition { Code = 1246, Condition = "Torrential rain shower", GifName = "torrentialrain.gif", PngName = "torrentialrain.png", BackgroundImg = "torrentialrain-bg.png" },
+            new WeatherCondition { Code = 1249, Condition = "Light sleet showers", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1252, Condition = "Moderate or heavy sleet showers", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1255, Condition = "Light snow showers", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1258, Condition = "Moderate or heavy snow showers", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1261, Condition = "Light showers of ice pellets", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1264, Condition = "Moderate or heavy showers of ice pellets", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" },
+            new WeatherCondition { Code = 1273, Condition = "Patchy light rain with thunder", GifName = "storm.gif", PngName = "storm.png", BackgroundImg = "storm-bg.png" },
+            new WeatherCondition { Code = 1276, Condition = "Moderate or heavy rain with thunder", GifName = "storm.gif", PngName = "storm.png", BackgroundImg = "storm-bg.png" },
+            new WeatherCondition { Code = 1279, Condition = "Patchy light snow with thunder", GifName = "lightsnow.gif", PngName = "lightsnow.png", BackgroundImg = "lightsnow-bg.png" },
+            new WeatherCondition { Code = 1282, Condition = "Moderate or heavy snow with thunder", GifName = "snowstorm.gif", PngName = "snowstorm.png", BackgroundImg = "snowstorm-bg.png" }
+        };
 
 
         private async void MainForm_Load(object sender, EventArgs e)
@@ -181,7 +181,6 @@ namespace Finals_Project___Weather_Application
             string conditionDescription = condition != null ? condition.Condition : "Unknown condition";
             string GifName = condition != null ? condition.GifName : "cloudy.gif";
             string BackgroundImg = condition != null ? condition.BackgroundImg : "cloudy-bg.gif";
-            string iconPath = Path.Combine(Application.StartupPath, "Assets", GifName);
             string illustPath = Path.Combine(Application.StartupPath, "Assets", BackgroundImg);
 
             string location = weatherData["location"]["name"].ToString();
@@ -194,6 +193,14 @@ namespace Finals_Project___Weather_Application
             string formattedDate = dateTime.ToString("M/d");
             string time = dateTime.ToString("h:mm tt").ToUpper();
 
+            bool isNight = dateTime.Hour < 6 || dateTime.Hour > 18;
+
+            if (isNight && condition != null && condition.Code == 1000)
+            {
+                GifName = "night.gif";
+            }
+
+            string iconPath = Path.Combine(Application.StartupPath, "Assets", GifName);
 
             tempTodayLbl.Text = $"{roundedTemperature}°";
             locationLbl.Text = $"{location}";
@@ -231,6 +238,14 @@ namespace Finals_Project___Weather_Application
                 WeatherCondition condition = weatherConditions.FirstOrDefault(c => c.Code == conditionCode);
                 string conditionDescription = condition != null ? condition.Condition : "Unknown condition";
                 string GifName = condition != null ? condition.GifName : "cloudy.gif";
+
+                bool isNight = dateTime.Hour < 6 || dateTime.Hour > 18;
+
+                if (isNight && condition != null && condition.Code == 1000)
+                {
+                    GifName = "night.gif";
+                }
+
                 string iconPath = Path.Combine(Application.StartupPath, "Assets", GifName);
 
                 Image weatherIcon = null;
@@ -273,6 +288,7 @@ namespace Finals_Project___Weather_Application
                 }
             }
         }
+
 
 
         private void DisplayForecastData(string jsonData)

@@ -774,20 +774,21 @@
             // 
             // todayIllust
             // 
-            this.todayIllust.Location = new System.Drawing.Point(494, 139);
+            this.todayIllust.Location = new System.Drawing.Point(494, 129);
             this.todayIllust.Margin = new System.Windows.Forms.Padding(2);
             this.todayIllust.Name = "todayIllust";
-            this.todayIllust.Size = new System.Drawing.Size(367, 370);
+            this.todayIllust.Size = new System.Drawing.Size(367, 380);
             this.todayIllust.TabIndex = 18;
             this.todayIllust.TabStop = false;
             // 
             // conditionLbl
             // 
+            this.conditionLbl.AutoSize = true;
             this.conditionLbl.Font = new System.Drawing.Font("Noto Sans Old Sogdian", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionLbl.ForeColor = System.Drawing.Color.Gray;
             this.conditionLbl.Location = new System.Drawing.Point(221, 149);
             this.conditionLbl.Name = "conditionLbl";
-            this.conditionLbl.Size = new System.Drawing.Size(235, 18);
+            this.conditionLbl.Size = new System.Drawing.Size(0, 18);
             this.conditionLbl.TabIndex = 19;
             this.conditionLbl.Click += new System.EventHandler(this.conditionLbl_Click);
             // 
