@@ -197,6 +197,7 @@ namespace Finals_Project___Weather_Application
 
             if (isNight && condition != null && condition.Code == 1000)
             {
+                conditionDescription = "Clear";
                 GifName = "night.gif";
             }
 
