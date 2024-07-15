@@ -189,7 +189,7 @@ namespace Finals_Project___Weather_Application
             string localtime = weatherData["location"]["localtime"].ToString();
             DateTime dateTime = DateTime.Parse(localtime);
             string day = dateTime.DayOfWeek.ToString();
-            string date = dateTime.ToString("MMMM d");
+            string date = dateTime.ToString("MMM d");
             string formattedDate = dateTime.ToString("M/d");
             string time = dateTime.ToString("h:mm tt").ToUpper();
 
@@ -199,6 +199,10 @@ namespace Finals_Project___Weather_Application
             {
                 conditionDescription = "Clear";
                 GifName = "night.gif";
+            } 
+            else if (isNight && condition != null && condition.Code == 1003)
+            {
+                GifName = "partlycloudynight.gif";
             }
 
             string iconPath = Path.Combine(Application.StartupPath, "Assets", GifName);
@@ -245,6 +249,10 @@ namespace Finals_Project___Weather_Application
                 if (isNight && condition != null && condition.Code == 1000)
                 {
                     GifName = "night.gif";
+                }
+                else if (isNight && condition != null && condition.Code == 1003)
+                {
+                    GifName = "partlycloudynight.gif";
                 }
 
                 string iconPath = Path.Combine(Application.StartupPath, "Assets", GifName);

@@ -213,7 +213,7 @@
             // 
             // todayIcon
             // 
-            this.todayIcon.Location = new System.Drawing.Point(110, 35);
+            this.todayIcon.Location = new System.Drawing.Point(115, 35);
             this.todayIcon.Name = "todayIcon";
             this.todayIcon.Size = new System.Drawing.Size(50, 50);
             this.todayIcon.TabIndex = 5;
